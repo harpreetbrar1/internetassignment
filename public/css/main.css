@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f3f2;
+}
+
+
+/* Main Heading Style (Complete)*/
+#main-heading{
+  width: 30%;
+  height: 10%;
+  font-size: 50px;
+  margin-left: 30%;
+  color: #b3b3ff;
+ 
+}
+
+/* Scoreboard Style (Complete)*/
+#scoreboard{
+  /* border: black solid; */
+ 
+  padding-left:60%;
+  width:100%;  
+  height: 20%; 
+  display: none; 
+ 
+}
+
+
+/* Tile, Trials and Score Elements (Complete) */
+.scoreboard-element{
+  margin-left: 15px;
+  /* border: black solid; */
+  height: 20px;
+  font-size:20px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#bfbfbf;
+  color:#b62f2f;
+}
+
+
+
+
+/*Complete */
+#game-outside-border{
+  margin-top: 2%;
+  margin-left: 10%;  
+  width: 60%;
+  height: 70%;
+  position: absolute; 
+  background-color: white;
+}
+
+
+
+/* Complete */
+#game-inside{
+ 
+  margin-left:2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 96%;
+  height: 94%;
+  background-color: #d28579;
+
+}
+
+
+
+/*Complete*/
+
+
+#game-intro{
+  margin-top: 2%;
+  margin-left: 22%;
+  font-size:20px;
+  color: white;
+  position: absolute;
+  
+  
+}
+
+
+/*Complete*/
+#game-intro-heading{
+  text-align: center;
+  font-size:70px;
+  
+}
+
+/* #attach-tiles-border{
+  margin-left: 15%;
+  padding: 1%;
+  width: 40%;
+  height: 40%;
+  background-color: grey;
+  align-content: center;
+} */
+
+
+
+
+/*Complete*/
+#play-button{
+  background-color: #25a7da;
+  font-size: 30px;
+  width: 30%;
+  height: 40%;
+  color:white;
+  padding: 10px;
+  margin-left: 35%;
+  margin-top: 10%;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+  
+/*Complete*/
+#terminate-button{
+  background-color: #25a7da;
+  font-size: 30px;
+  width: 30%;
+  height: 20%;
+  color:red;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 42%;
+  border-radius: 10px; 
+  display: none;
+}
+
+
+
+
+.attach-tiles {
+  border: black solid;
+  margin-left: 20%;
+  width: 10%;
+  height: 10%;
+  
+
+}
+
+/* Rotate Div */
+
+.rotatediv {
+  animation: rotate 1s ;
+ 
+  
+}
+@-webkit-keyframes rotate {
+  from {
+          -webkit-transform: rotate(0deg);
+  }
+  to {
+          -webkit-transform: rotate(-90deg);
+  }
+}
+
+
+.disappearIntro{
+  animation: disappear 1s;
+  
+}
+
+@-webkit-keyframes disappear {
+  from {
+          opacity: 1.0;
+  }
+  to {
+          opacity: 0;
+          
+  }
+}
+
+
+#terminationConfirmation {
+  font-size: 40px;
+  margin-left: 20%;
+  margin-top: -30%;
+   position: absolute; 
+  background-color: cornsilk;
+  display: none;
+}
+
+#quit-yes{
+  font-size: 30px;
+  margin-left: 30%;
+}
+
+#quit-no{
+  font-size: 30px;
+  margin-left: 10%;
+}

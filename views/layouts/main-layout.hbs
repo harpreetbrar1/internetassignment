@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ pageTitle }}</title>
+    <link href='/css/main.css' rel='stylesheet' />
+    {{#if peoplesCSS}}
+        <link href='/css/peoplesCSS.css' rel='stylesheet' />
+    {{/if}}
+    {{#if peopleCSS}}
+        <link href='/css/people.css' rel='stylesheet' />
+    {{/if}}
+    {{#if formsCSS}}
+        <link href='/css/forms.css' rel='stylesheet' />
+    {{/if}}
+
+</head>
+<body>
+
+    <div id="main-heading">MEMORY GAME</div>
+
+    
+    <div id ="game-outside-border">
+        <div id = "game-inside">
+        {{!-- Scoreboard Complete --}}
+         <div id ="scoreboard">
+            <div class = "scoreboard-element">Tiles 4</div>
+            <div class = "scoreboard-element">Level 1 of 6</div>
+            <div class = "scoreboard-element">Score  0</div>
+         </div>
+        {{!-- Scoreboard Ends --}}
+
+        
+        <div id = "attach-tiles" ></div>
+        </div>
+    </div>
+
+    <div id="game-intro">
+
+        <p id = "game-intro-heading">Rotation Matrix</p>
+        <p>Train your working memory by remembering</p>
+        <p> the pattern of tiles</p>
+        <button id = "play-button"  onclick="gameStart();">Play</button>
+        
+        <audio id="audio" src="/js/audio/Swooshing.mp3"></audio>
+         
+
+    </div>
+
+
+    <footer id ="footer">
+        <button id = "terminate-button" onclick="terminateButton()">Terminate</button>
+        <div id = "terminationConfirmation">
+            <p>Are you Sure you  want to quit?</p> 
+            <button id = 'quit-yes' onclick="quitYes()">Yes</button>
+            <button id = 'quit-no' onclick="quitNo()">No</button>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main-layout.js" ></script>
+    
+
+
+    
+</body>
+</html>

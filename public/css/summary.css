@@ -1,0 +1,52 @@
+#restart-page-main-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+#displayScore{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#scores {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue 
+}
+
+#outline{
+    text-align: center;
+    width: 40%;
+    height: auto;
+    border: soild black;
+    margin-left: 25% ;
+    margin-top: 5% ;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.leaderboard{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#name{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 32.5%;
+}
+.okay{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 42%;
+}
